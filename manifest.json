@@ -1,0 +1,22 @@
+{
+    "author": "Plugtopus Agency",
+    "browser_action": {
+        "default_icon": "icon/icon.png"
+    },
+    "content_scripts": [{
+        "css": ["css/width.css"],
+        "matches": ["https://web.telegram.org/*"]
+    }],
+    "default_locale": "ru",
+    "description": "__MSG_desc__",
+    "homepage_url": "https://plugtopus.agency",
+    "icons": {
+        "128": "icon/icon.png",
+        "16": "icon/icon.png",
+        "48": "icon/icon.png"
+    },
+    "manifest_version": 2,
+    "name": "__MSG_name__",
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "17.5.18.1"
+}
