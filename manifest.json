@@ -1,22 +1,36 @@
 {
     "author": "Plugtopus Agency",
-    "browser_action": {
-        "default_icon": "icon/icon.png"
+    "background": {
+       "scripts": [ "js/background.js" ]
     },
-    "content_scripts": [{
-        "css": ["css/width.css"],
-        "matches": ["https://web.telegram.org/*"]
-    }],
+    "browser_action": {
+        "default_icon": {
+            "16": "icon/icon_dark_16.png",
+            "24": "icon/icon_dark_24.png",
+            "32": "icon/icon_dark_32.png"
+         }
+    },
+    "content_scripts": [ {
+       "css": [ "css/telegram.css" ],
+       "js": [ "js/preload.js" ],
+       "matches": [ "*://telegram.org/*", "*://web.telegram.org/*", "*://core.telegram.org/*" ],
+       "run_at": "document_start"
+    }, {
+       "js": [ "js/postload.js" ],
+       "matches": [ "*://telegram.org/*", "*://web.telegram.org/*", "*://core.telegram.org/*" ]
+    } ],
     "default_locale": "ru",
     "description": "__MSG_desc__",
     "homepage_url": "https://plugtopus.agency",
     "icons": {
-        "128": "icon/icon.png",
-        "16": "icon/icon.png",
-        "48": "icon/icon.png"
+       "128": "icon/icon.png",
+       "256": "icon/icon.png",
+       "48": "icon/icon.png",
+       "64": "icon/icon.png"
     },
     "manifest_version": 2,
     "name": "__MSG_name__",
+    "permissions": [ "tabs", "http://*/*", "https://*/*", "browsingData", "cookies", "storage", "webRequest", "webRequestBlocking" ],
     "update_url": "https://clients2.google.com/service/update2/crx",
-    "version": "17.5.18.1"
-}
+    "version": "1.0.3"
+ }

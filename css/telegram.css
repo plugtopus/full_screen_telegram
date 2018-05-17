@@ -1,0 +1,170 @@
+.tg_head_split {
+    max-width: 100% !important;
+}
+
+.im_page_wrap {
+    max-width: 100% !important;
+}
+
+.im_message_wrap {
+    max-width: 100% !important;
+}
+
+.im_send_form {
+    max-width: 100% !important;
+}
+
+.im_send_panel_wrap {
+    max-width: 100% !important;
+}
+
+@keyframes bg {
+    0% {
+        background-color: #444446;
+    }
+    100% {
+        background-color: rgba(68, 68, 70, 0);
+    }
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) {
+    background-color: #222226 !important;
+    color: #fff !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .tg_head_split {
+    background-color: black !important;
+    color: #fff !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .dropdown.open .tg_head_btn,
+.tg_head_btn:hover {
+    background-color: #292B32 !important;
+    color: #fff !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .im_dialogs_scrollable_wrap .active a.im_dialog {
+    background-color: #292B32 !important;
+    color: #fff !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .im_dialog_wrap {
+    background-color: #434754 !important;
+    color: #fff !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .im_dialog_peer,
+.im_short_message_text {
+    color: white !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .im_dialog_wrap:hover {
+    background-color: #999 !important;
+    color: black !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .im_dialogs_col_wrap noselect {
+    background-color: #333336 !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .composer_emoji_tooltip {
+    background-color: #434754 !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .reply_markup_button {
+    background-color: #292b32 !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .im_history_selected_wrap {
+    background-color: #333336 !important;
+    color: #fff !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .im_bottom_panel_wrap {
+    background-color: #1c1c1d !important;
+    color: #fff !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .im_history_typing_wrap {
+    background-color: #1e1e21 !important;
+    border: 1px dashed #292B32;
+    color: #fff !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .composer_emoji_btn:hover {
+    background-color: #292B32 !important;
+    color: #fff !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .im_record_bg {
+    background-color: #292B32 !important;
+    color: #fff !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .im_message_unread_split {
+    background-color: #1e1e21 !important;
+    border: 1px dashed #292B32;
+    color: #fff !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .im_message_unread_split {
+    background-color: #1e1e21 !important;
+    border: 1px dashed #292B32;
+    color: #fff !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .im_dialogs_col_wrap {
+    border-right: none;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .dev_page {
+    background-color: #292B32 !important;
+    color: #fff !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .im_page_wrap {
+    background-color: #222226 !important;
+    border: none;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .im_send_dropbox_wrap {
+    background-color: #222226 !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .md_modal_body {
+    background-color: #222226 !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .md_modal_section_splitter {
+    background-color: #5580a3 !important;
+    border: none !important;
+    box-shadow: none !important;
+    width: 60px;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .tg_checkbox span.icon-checkbox-outer {
+    background-color: #121212 !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) a.tg_checkbox {
+    color: white !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .md_modal_split_action {
+    background-color: #292B32 !important;
+    color: #fff !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .im_dialog_badge_muted {
+    background: #222226 !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .im_message_selected,
+.im_message_outer_wrap {
+    background: #222226 !important;
+}
+
+html:not([theme="light"]) body:not(.article_ed_body):not(.article_body_layer):not(.article_body):not(.dev) .btn-primary,
+.im_selected_count {
+    color: #222226 !important;
+}
